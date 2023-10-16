@@ -6,4 +6,11 @@ body{
     h1{
         @apply bg-amber-100;
     }
+    p{
+        @apply text-pink-600;
+    }
+}
+
+.box_3{
+    color: pink;
 }
