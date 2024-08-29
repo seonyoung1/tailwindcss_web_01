@@ -1,15 +1,13 @@
 {
-  "name": "tailwind_vanilla",
+  "name": "tailwindcss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "postcss src/index.scss -o dist/assets/css/style.css --watch",
-    "build": "postcss src/index.scss -o dist/assets/css/style.css",
-    "prod": "cross-env NODE_ENV=production postcss src/index.scss -o dist/assets/css/style.css"
+    "dev": "postcss public/assets/scss/index.scss -o public/assets/css/style.css --watch",
+    "build": "postcss public/assets/scss/index.scss -o public/assets/css/style.css",
+    "prod": "cross-env NODE_ENV=production postcss public/assets/scss/index.scss -o public/assets/css/style.css"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "cross-env": "^7.0.3",
